@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D BreakOut - JavaScript</title>
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <style>
+        body{
+            position: relative;
+        }
+        .sound img{
+            width : 30px;
+            height: 30px;
+            cursor: pointer;
+            position: absolute;
+            top : 465px;
+            left : 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sound">
+        <img id = "sound" src="img/SOUND_ON.png" state="on" alt="">
+    </div>
+    <canvas id="breakout" width="400" height="500">
+        Your Browser doesn't support the element CANVAS. please Upgrade.
+    </canvas>
+    
+    <script src="components.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
