@@ -22,6 +22,7 @@ We will also implement some sounds in the game, and we will create a button for 
 
 ****************************************************************
 The video tutorial for the 1st part : https://www.youtube.com/watch?v=FyZ4_T0GZ1U
+
 The video tutorial for the 2nd part : Coming Soon
 
 *****************************************************************
@@ -46,6 +47,4 @@ https://youtu.be/9TcU2C1AACw
 
 Flappy Bird Game Using JavaScript
 https://youtu.be/L07i4g-zhDA
-
-#javascript #2dbreakout #beginners #tutorial #game
 
