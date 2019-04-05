@@ -2,29 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2D BreakOut - JavaScript</title>
-    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <title>2D Breakout Game - JavScript</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Germania+One">
+    
     <style>
-        body{
-            position: relative;
+        *{
+            font-family: "Germania One";
         }
-        .sound img{
-            width : 30px;
-            height: 30px;
+        #sound{
+            width: 30px;
+            height : 30px;
             cursor: pointer;
             position: absolute;
             top : 465px;
-            left : 5px;
+            left : 15px;
+        }
+        #gameover{
+            position: absolute;
+            width : 400px;
+            height: 500px;
+            background: rgba(0,0,0,0.5);
+            display: none;
+        }
+        #youwon{
+            width: 100px;
+            position: absolute;
+            top : 200px;
+            left : 150px;
+            display: none;
+        }
+        #youlose{
+            width:400px;
+            position: absolute;
+            top: 100px;
+            left : 0px;
+            display: none;
+        }
+        #restart{
+            position: absolute;
+            top: 310px;
+            left : 155px;
+            cursor: pointer;
+            font-size: 1.25em;
+            color : #FFF;
         }
     </style>
 </head>
 <body>
     <div class="sound">
-        <img id = "sound" src="img/SOUND_ON.png" state="on" alt="">
+        <img src="img/SOUND_ON.png" alt="" id="sound">
     </div>
-    <canvas id="breakout" width="400" height="500">
-        Your Browser doesn't support the element CANVAS. please Upgrade.
-    </canvas>
+    
+    <div id="gameover">
+        <img src="img/youwon.png" alt="" id="youwon">
+        <img src="img/gameover.png" alt="" id="youlose">
+        <div id="restart">Play Again!</div>
+    </div>
+   
+    <canvas id="breakout" width="400" height="500"></canvas>
     
     <script src="components.js"></script>
     <script src="game.js"></script>

@@ -1,20 +1,18 @@
 /////// LOAD IMAGES ////////
 
-// BACKGROUND IMAGE
+// LOAD BG IMAGE
 const BG_IMG = new Image();
 BG_IMG.src = "img/bg.jpg";
 
-// SCORE IMAGE
-const SCORE_IMG = new Image();
-SCORE_IMG.src = "img/score.png";
+const LEVEL_IMG = new Image();
+LEVEL_IMG.src = "img/level.png";
 
-// LIFE IMAGE
 const LIFE_IMG = new Image();
 LIFE_IMG.src = "img/life.png";
 
-// LEVEL IMAGE
-const LEVEL_IMG = new Image();
-LEVEL_IMG.src = "img/level.png";
+const SCORE_IMG = new Image();
+SCORE_IMG.src = "img/score.png";
+
 
 /////// END LOAD IMAGES ////////
 
@@ -22,24 +20,20 @@ LEVEL_IMG.src = "img/level.png";
 
 /////// LOAD SOUNDS ////////
 
-// BALL HITS WALL
-const wall = new Audio();
-wall.src = "sounds/wall.mp3";
+const WALL_HIT = new Audio();
+WALL_HIT.src = "sounds/wall.mp3";
 
-// PADDLE HIT
-const paddle_hit = new Audio();
-paddle_hit.src = "sounds/paddle_hit.mp3";
+const LIFE_LOST = new Audio();
+LIFE_LOST.src = "sounds/life_lost.mp3";
 
-// LIFE LOST
-const life_lost = new Audio();
-life_lost.src = "sounds/life_lost.mp3";
+const PADDLE_HIT = new Audio();
+PADDLE_HIT.src = "sounds/paddle_hit.mp3";
 
-// BALL HITS BRICK
-const brick_hit = new Audio();
-brick_hit.src = "sounds/brick_hit.mp3";
+const WIN = new Audio();
+WIN.src = "sounds/win.mp3";
 
-// WIN GAME
-const win = new Audio();
-win.src = "sounds/win.mp3";
+const BRICK_HIT = new Audio();
+BRICK_HIT.src = "sounds/brick_hit.mp3";
+
 
 /////// END LOAD SOUNDS ////////
